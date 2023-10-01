@@ -1,0 +1,20 @@
+name: design_patterns
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+publish_to: none
+
+environment:
+  sdk: ^3.1.2
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  data_structure:
+    git: https://github.com/Jeeva111/dart-data-structure.git
+
+   
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
